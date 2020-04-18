@@ -1,0 +1,28 @@
+{
+  "name": "google-book-search",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "bcrypt": "^4.0.1",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenetto/google-book-search.git"
+  },
+  "author": "sahar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xenetto/google-book-search/issues"
+  },
+  "homepage": "https://github.com/xenetto/google-book-search#readme"
+}
