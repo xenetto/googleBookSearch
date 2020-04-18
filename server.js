@@ -7,7 +7,8 @@ const bodyParser = require("body-parser");
 const orm = require( './db/orm.mongoose' );
 
 const PORT = process.env.PORT || 8080;
-// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooksDB";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooksDB";
+mongoose.connect(MONGODB_URI);
 
 const app = express();
 
