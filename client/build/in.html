@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+    
+</head>
+<body>
+
+    <div class="container" style="border: 0px black solid">
+
+        <div class="row"> <div class="col-12"> &nbsp; </div> </div>      
+
+        <div class="row">
+            <div class="col-12 pl-0 pr-0" style="border: 1px darkgray solid">
+                <div class="jumbotron jumbotron-fluid pb-5 pt-1 mb-0" style="background-color:white;">
+                    <h1 class="display-6 d-flex justify-content-center mt-3">(React) Google Books Search</h1>
+                    <p class="display-6 lead d-flex justify-content-center">Search for and Save Books of Interest</p>
+                </div>
+            </div>
+        </div>        
+
+        <div class="row"> <div class="col-12"> &nbsp; </div> </div>        
+
+        <div class="row">
+            <div class="col-12 pl-0 pr-0" style="border: 1px darkgray solid">
+                <div class="jumbotron pl-0 pr-0 pb-0 pt-0" style="background-color:white;">
+                    <div class="row ">
+                        <div class="col-12 pl-4 ml-2 mt-3 "><h4>Book Search</h4></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 pl-4 ml-2">Book</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 pl-5 pr-5">
+                                <div class="form-group mb-2 ">
+                                    <label for="searchtxt"></label>
+                                    <input id="searchtxt" type="text" ref="{txtSearch} "class="form-control"></input>
+                                </div>
+                                <div class="col-12 d-flex justify-content-end pr-0"><button onClick="{searched}" class="btn btn-primary submit">Search</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>         
+
+        <div class="row"> <div class="col-12"> &nbsp; </div> </div>      
+
+        <div class="row">
+            <div class="col-12" style="border: 1px darkgray solid">
+                <div class="jumbotron pl-0 pr-0 pb-0 pt-0" style="background-color:white;">
+                    <div class="row"><div class="col-12 mb-2 mt-2"><h5>Results:</h5></div></div> 
+
+                        <div class="col-12 mb-1" style="border: 1px darkgray solid">
+                            <div class="row">
+                                <div class="col-6 d-flex justify-content-start">
+                                    <div class="row mb-0">
+                                        <h3 class="col-12 mt-4 pl-3" >Title</h3>
+                                        <h6 class="col-12 mb-2 pl-4" >written by</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-2 d-flex justify-content-end align-self-baseline">
+                                    <button onClick="{searched}" class="btn btn-primary submit">View</button>
+                                    &nbsp;
+                                    <button onClick="{searched}" class="btn btn-primary submit">Save</button>
+                                </div>
+                            </div>
+                            <div class="row pb-4">
+                                <div class="col-2 d-flex justify-content-start">
+                                    <img class="rounded-square" alt="100x100" src="https://placehold.it/100x100" data-holder-rendered="true" />
+                                </div>
+                                <div class="col-9 ml-4 pl-4 d-flex justify-content-start align-self-baseline">
+                                    <div> text </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row"> <div class="col-12"> &nbsp; </div> </div>      
+
+    </div>
+
+</body>
+</html>
