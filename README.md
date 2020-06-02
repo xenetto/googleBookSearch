@@ -1,6 +1,6 @@
 # Google Books Search
 
-A single-page react-based applicatopn,which user can search for books via the Google Books API and render them. User has the option to "View" a book (by bringing them to the book on Google Books), or "Save" a book (by saving it to the Mongo database), or "Delete" a book  (by removing it from the database).
+A single-page react-based application, which user can search for books via the Google Books API and render them. User has the option to "View" a book (by bringing them to the book on Google Books), or "Save" a book (by saving it to the Mongo database), or "Delete" a book  (by removing it from the database).
 
 All the books have each of the following fields:
 
@@ -26,6 +26,9 @@ I've used Node, Express and MongoDB so that users can save books to review or pu
 * `/api/books` (post) - to save a new book to the database.
 
 * `/api/books/:id` (delete) - to delete a book from the database by Mongo `_id`.
+
+Published at : https://bootcamp-sahar-book-search.herokuapp.com/
+
 
 
 
